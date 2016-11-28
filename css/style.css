@@ -1,0 +1,38 @@
+@font-face {
+ font-family: 'header';
+ src: url("RAGE.TTF") format("truetype");
+ font-weight: normal;
+ font-style: normal; }
+
+body{
+font-family:sans-serif;
+background-image: url(../images/background.jpg);
+}
+
+h1{ 
+    font-size: 50px; 
+    font-family: 'header';
+}
+
+.smallbox:nth-child(3){
+    background-color: #ACDDE7 ;
+}
+
+.smallbox{
+    background-color: #B744B8 ;
+}
+
+#box1{
+    background-color: #A379C9 ;    
+}
+
+#box1, #box2, #box3{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+#container{
+    width:600px;
+    margin:0px auto;
+}
